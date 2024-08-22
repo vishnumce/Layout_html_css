@@ -1,0 +1,127 @@
+<html>
+    <title>Layout page</title>
+    <head></head>
+    <style>
+        header{
+            height: 170px;
+            display: flex;
+            flex-direction: row;
+            border:1px solid black;
+        }
+        .left{
+            height: inherit;
+            width: 10%;
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGlLJKq2_UO8unAbgnA_hs1zoZiWJ_A8Qe2w&s);
+            background-size: cover;
+        }
+        .right{
+            height: inherit;
+            width:90%;
+            background-color: lightblue;
+        }
+        h1{
+            text-align: center;
+            font-size: 50px;
+            margin-top: 60px;;
+            text-shadow: 0px 0px 3px 3px black;
+            
+        }
+        
+        nav{
+            height: 50px;
+            display: flex;
+            background-color: lightblue;
+            flex-direction:row;
+        }
+        .n{
+            height: inherit;
+            width:20%;
+            diplay:flex;
+            justify-content:center;
+            align-items: center;
+
+
+        }
+        .n:hover{
+            background-color: aqua;
+            transition: 3s;
+        }
+        section{
+            height:400px;
+            display:flex;
+            flex-direction: row;
+            background-image:url(quiz.jpg);
+
+        }
+        .s1{
+            height:inherit;
+            width:20%;
+            background-color: blueviolet;
+        }
+        .s2{
+            height:inherit;
+            width:40%;
+            background-color: chartreuse; 
+            background-image: url(ipl.jpg);
+            background-size: cover;
+        }
+        .s3{
+            height:inherit;
+            width:40%;
+            background-color: darkgoldenrod;
+            background-image: url(quiz.jpg);
+            background-size: cover;
+        }
+        footer{
+            height: 100px;
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+    </style>
+    <body>
+        <header>
+            <div class="left">
+
+            </div>
+            <div class="right">
+                <h1>Muthayammal College Of Engineering</h1>
+                <center><p>Rasipuram,Namakkal District</p></center>
+
+            </div>
+        </header>
+        <nav>
+            <div class="n">
+                <href>Home</href>
+            </div>
+            <div class="n">
+                <href>About</href>
+            </div>
+            <div class="n">
+                <href>Department</href>
+            </div>
+            <div class="n">
+                <href>contact</href>
+            </div>
+        </nav>
+        <section>
+            <div class="s1">
+                <center>
+                    <h3>Symposium</h3>
+                    <h3>Quiz game</h3>
+                    <h3>workshop</h3>
+                    <h3>paper presentation</h3>
+                    <h3>Ipl Auction</h3>
+                </center>
+                
+            </div>
+            <div class="s2"></div>
+            <div class="s3"></div>
+        </section>
+        <footer>
+            <h3>Thank you for participating</h3>
+        </footer>
+    </body>
+</html>
